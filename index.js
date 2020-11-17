@@ -10,7 +10,9 @@ dodger.style.bottom = "100px"
 
 dodger.style.bottom = "0px"
 
-
+document.addEventListener("keydown", function(e) {
+  console.log(e.key);
+});
 
 
 
