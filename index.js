@@ -25,6 +25,15 @@ document.addEventListener("keydown", function(e) {
   }
 });
 
+function moveDodgerRight() {
+  let rightNUmbers = dodger.style.right.replace("px", "");
+  let right = parseInt(rightNUmbers, 10);
+  
+  if (right > 0) {
+    dodger.style.right = `${right - 1 }px`
+  }
+}
+
 
 
 
