@@ -10,7 +10,7 @@ dodger.style.bottom = "100px"
 
 dodger.style.bottom = "0px"
 
-moveDodgerLeft() =>  {
+function moveDodgerLeft() {
   let leftNumbers = dodger.style.left.replace("px", "");
   let left = parseInt(leftNumbers, 10);
  
